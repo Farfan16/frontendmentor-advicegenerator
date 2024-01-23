@@ -28,7 +28,7 @@ const Card = () => {
   }, []);
 
   return (
-    <div className="flex flex-col items-center justify-center pb-12 px-4 py-6 sm:p-6 rounded-xl max-w-md bg-Dark-Grayish-Blue gap-4 relative shadow-2xl">
+    <div className="flex flex-col items-center justify-center pb-12 px-4 py-6 sm:px-6 rounded-xl max-w-md bg-Dark-Grayish-Blue gap-4 relative shadow-2xl">
       <h5
         className="text-Neon-Green text-sm tracking-widest"
         suppressHydrationWarning={true}
