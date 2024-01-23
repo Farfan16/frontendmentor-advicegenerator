@@ -39,7 +39,7 @@ const Card = () => {
         className="text-center text-Light-Cyan font-bold text-[26px]"
         suppressHydrationWarning={true}
       >
-        "{adviceWord}"
+        &ldquo;{adviceWord}&rdquo;
       </p>
       <Image
         src={DividerDesktop}
