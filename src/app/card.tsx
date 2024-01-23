@@ -55,7 +55,7 @@ const Card = () => {
       />
       <button
         onClick={() => fetchAdvice()}
-        className="absolute -bottom-5 bg-Neon-Green hover:drop-shadow-[0px_0px_8px_#80ffbf] active:bg-Dark-Neon-Green active:drop-shadow-[0px_0px_8px_#00994d]  rounded-full w-10 h-10 z-10"
+        className="absolute -bottom-5 bg-Neon-Green sm:hover:drop-shadow-[0px_0px_8px_#80ffbf] active:bg-Dark-Neon-Green active:drop-shadow-[0px_0px_8px_#00994d]  rounded-full w-10 h-10 z-10"
       >
         <div className="flex justify-center items-center w-full">
           <Image src={Dice} alt="Dice icon" className="w-4 h-4" />
